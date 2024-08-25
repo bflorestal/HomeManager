@@ -1,0 +1,8 @@
+name: HomeManager
+version: '1.0'
+main: fr.bflorestal.homeManager.HomeManager
+api-version: '1.21'
+prefix: HomeManager
+authors: [ bflorestal ]
+description: Plugin permettant de définir une maison
+website: https://github.com/bflorestal
