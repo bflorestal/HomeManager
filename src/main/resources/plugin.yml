@@ -1,0 +1,19 @@
+name: HomeManager
+version: '${project.version}'
+main: fr.bflorestal.homeManager.HomeManager
+api-version: 1.21
+prefix: HomeManager
+authors: [ bflorestal ]
+description: Plugin permettant de définir une maison
+libraries:
+  - org.jetbrains.kotlin:kotlin-maven-plugin:2.0.20
+commands:
+  sethome:
+    description: Définir une maison
+    usage: /sethome <nom>
+  home:
+    description: Téléportation à une maison
+    usage: /home <nom>
+  delhome:
+    description: Supprimer une maison
+    usage: /delhome <nom>
